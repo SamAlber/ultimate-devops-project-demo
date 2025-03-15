@@ -103,7 +103,7 @@ jobs:
           git config --global user.name "Samuel Albershtein"
           git add kubernetes/productcatalog/deploy.yaml
           git commit -m "[CI]: Update product-catalog-service image tag"
-          git push origin main --force
+          git push origin HEAD:main --force
 
         
 
